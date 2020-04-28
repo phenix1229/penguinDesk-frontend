@@ -15,12 +15,12 @@ class CreateTicket extends Component {
     handleChange=(event)=>{
         let updatedTicket = { ...this.state.ticket};
         updatedTicket.openedBy = this.props.user.name;
-        updatedTicket[event.target.name]=event.target.value.trim();
+        updatedTicket[event.target.name]=event.target.value;
         this.setState({ticket:updatedTicket})
     };
     handleSubmit = (event) =>{
         event.preventDefault();
-        if(this.state.ticket.client === '' || this.state.ticket.issue === ''){
+        if(this.state.ticket.client.trim() === '' || this.state.ticket.issue.trim() === ''){
             return this.setState({error: true});
         } 
         this.props.handleCreateTicketSubmit(event, this.state.ticket);
