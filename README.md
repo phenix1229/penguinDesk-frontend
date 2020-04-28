@@ -16,7 +16,7 @@ PenguinDesk is a ticket tracking system created as my final project for term 2 o
 * Logout the current user and end the session.
 ## Installation
 * Create a container directory to hold the front and back ends of the app.
-* Fork the frontend here and the backend [here](https://github.com/phenix1229/PenguinDesk-backend).
+* Fork the frontend here and the backend [here](https://github.com/phenix1229/penguinDesk-backend).
 * Clone each part into the container directory you created.
 * CD into each cloned directory and run NPM install.
 * In the frontend directory, add a proxy to the package.json file.
@@ -42,6 +42,6 @@ PenguinDesk is a ticket tracking system created as my final project for term 2 o
 
 *Demo:*
 
-![video](./public/demo.mov "PenguinDesk demo")
+[![video](./public/demo.png)](https://youtu.be/CoFex5AmQGs "PenguinDesk demo")
 
 Thank you for stopping by.
