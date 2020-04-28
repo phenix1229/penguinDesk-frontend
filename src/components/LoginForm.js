@@ -68,7 +68,7 @@ class LoginForm extends Component {
                         <div className="field">
                             <label>password</label>
                             <div className="ui fluid input" style={{width:'300px'}}>
-                                <input type="text" placeholder="Password..."
+                                <input type="password" placeholder="Password..."
                                     name="password"
                                     value={this.state.user.password}
                                     onChange={this.handleChange}
